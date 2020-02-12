@@ -1,0 +1,171 @@
+ul{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #20B2AA;
+}
+
+li{
+	float: left;
+}
+
+li a{
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: #7FFFD4;
+}
+
+body{
+	background-color: white;
+}	
+
+#header-img{
+	vertical-align: middle;
+	height: 100px;
+	max-width: 100%;
+	position: fixed;
+}
+
+#contact{
+	text-align: center;
+}
+
+#form.submit{
+	height: 170px;
+}
+.pricing--sonam .pricing__item {
+	margin: 1.5em;
+	padding: 2em;
+	cursor: default;
+	border-radius: 10px;
+	background: #20B2AA;
+	box-shadow: 0 5px 20px rgba(0,0,0,0.05), 0 15px 30px -10px rgba(0,0,0,0.3);
+	transition: background 0.3s;
+}
+
+.pricing--sonam .pricing__item:hover {
+	background: #7FFFD4;
+}
+
+.pricing--sonam .pricing__title {
+	font-size: 2em;
+	width: 100%;
+	margin: 0 0 0.25em;
+	padding: 0 0 0.5em;
+	border-bottom: 3px solid rgb(27, 26, 28);
+}
+
+.pricing--sonam .pricing__price {
+	color: #E06060;
+	font-size: 1.75em;
+	padding: 1em 0 0.75em;
+}
+
+.pricing--sonam .pricing__sentence {
+	font-weight: bold;
+}
+
+.pricing--sonam .pricing__action {
+	font-weight: bold;
+	margin-top: auto;
+	padding: 0.75em 2em;
+	border-radius: 5px;
+	background: #7FFFD4;
+	transition: background 0.3s;
+}
+
+.pricing--sonam .pricing__action:hover,
+.pricing--sonam .pricing__action:focus {
+	background: #20B2AA;
+}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;  
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color: #20B2AA;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #7FFFD4;
+  padding: 20px;
+}
+
+#video{
+	text-align: center;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 33.3%;
+  max-width: 33.3%;
+  padding: 0 4px;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+}
+
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+}
